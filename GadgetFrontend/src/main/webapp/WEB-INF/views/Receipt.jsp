@@ -14,6 +14,13 @@
     					${address}
     				</address>
     			</div>
+                <div class="row">
+    			<div class="col-xs-6">
+    				<address>
+    				<strong>USERNAME:</strong><br>
+    					${username}
+    				</address>
+    			</div>
     			<div class="col-xs-6 text-right">
     				<address>
         			<strong>Total Shopping Amount:</strong><br>
