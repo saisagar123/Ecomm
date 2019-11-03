@@ -7,18 +7,25 @@
     			<h2>Invoice</h2><h3 class="pull-right">Order # ${order.orderId}</h3>
     		</div>
     		<hr>
-    		<div class="row">
+    		
+                <div class="row">
+    			<div class="col-xs-6">
+    				<address>
+    				<strong>USERNAME:</strong><br>
+    					${username}
+    				</address>
+    			</div><div class="row">
     			<div class="col-xs-6">
     				<address>
     				<strong>Billed To:</strong><br>
     					${address}
     				</address>
     			</div>
-                <div class="row">
+                    <div class="row">
     			<div class="col-xs-6">
     				<address>
-    				<strong>USERNAME:</strong><br>
-    					${username}
+    				<strong>Billed To:</strong><br>
+    					${address}
     				</address>
     			</div>
     			<div class="col-xs-6 text-right">
