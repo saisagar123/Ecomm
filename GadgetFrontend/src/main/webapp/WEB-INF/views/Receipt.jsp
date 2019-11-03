@@ -6,22 +6,10 @@
     		<div class="invoice-title">
     			<h2>Invoice</h2><h3 class="pull-right">Order # ${order.orderId}</h3>
     		</div>
+    		USERNAME:::<div>${username}</div>
+    		Address::::<div>${address}</div>
     		<hr>
-    		
-                <div class="row">
-    			<div class="col-xs-6">
-    				<address>
-    				<strong>USERNAME:</strong><br>
-    					${username}
-    				</address>
-    			</div><div class="row">
-    			<div class="col-xs-6">
-    				<address>
-    				<strong>Billed To:</strong><br>
-    					${address}
-    				</address>
-    			</div>
-                    <div class="row">
+    		<div class="row">
     			<div class="col-xs-6">
     				<address>
     				<strong>Billed To:</strong><br>
@@ -86,4 +74,3 @@
     	</div>
     </div>
 </div>
-<%@include file="CommonFooter.jsp" %>
